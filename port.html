@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA- Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eug-Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/87da55e338.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+   <div class="container">
+       <nav>
+            <img src="headlog.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+       </nav>
+       <div class="header-text">
+          <p>Web/Software Developer</p>
+          <h1>Hi, I'm <span>Eugene</span><br>kana residence in India</h1>
+       </div>
+    </div>
+</div>
+<!-- ----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+           <div class="about-col-1">
+                <img src="Teugene.jpg">
+           </div>
+           <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'am an enthusiastic autodidact fast learner, especially when it comes to Web/App Development, Digital Marketing, Web security infrastructure, Graphic Design and Video Development.
+                . Apart from these interest mentioned above i will say, i also show some interest in food processing and enviromental friendly activities for i acknowledge the fact that i'am a biophile.
+                Being a Christian i'am characterise by a spirit of constant change and dynamic evolution, i like to confront myself with challenges that better sharpen my skills and set me apart from the majority.
+                From Africa espcially in Cameroon where i come from, i grew up in an environment where there is no mercy for the weak people and this can only portray my ability to strive at challenges no matter what comes my way.
+                I embody the values of endurnce, consistency, and a positive mindset.
+
+                </p>
+
+                <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                     <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/Software interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Video Development</span><br>Video Editing/Montage</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Web/App Development|Video Editing/Montage Freelance</li>
+                        <li><span>2022 - 2023</span><br>Digital Marketing at Tropik Industries</li>
+                        <li><span>2019 - 2021</span><br>Internship at Fak Consulting</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - Current</span><br>MCA at SVIET College</li>
+                        <li><span>2022</span><br>Bachelor in Strategic and Digital Marketing at University of Dschang</li>
+                        <li><span>2019</span><br>Wordpress Training at Fak Consulting</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services--------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I design websites for both companies and individuals be it for  business or personal purposes like porfolios or e-commerce website.</p>
+                <a href="#">Learn more</a> 
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Building interfaces for apps as well as websites, Graphic Design and many more.</p>
+                <a href="#">Learn more</a> 
+            </div>
+            <div>
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h2>Video Development</h2>
+                <p>Editing and creating videos for all purposes that is for marketing (branding, communication, add running etc), for fun (birthdays etc).</p>
+                <a href="#">Learn more</a> 
+            </div> 
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+           <div class="work">
+                <img src="apphoto.jpg">
+                <div class="layer">
+                    <h3>Food Diet App</h3>
+                    <p>The app permit you to find food recipes and 
+                    nutritional values with the possibility of ordering.</p>
+                </div>
+           </div>
+           <div class="work">
+            <img src="webphoto.jpg">
+            <div class="layer">
+                <h3>e-commerce website</h3>
+                <p>The website containt a varieties of cosmestic products.</p>
+            </div>
+       </div> 
+       <div class="work">
+        <img src="editphoto.jpg">
+        <div class="layer">
+            <h3>Video Development</h3>
+            <p>Editing a video for a sale project as well as personal reasons. </p>
+        </div>
+   </div>  
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><a href="kqanaeugene9@gmail.com"></a><i class="fa-solid fa-paper-plane"></i>kqanaeugene9@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 76968 30056</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/eugene.clark.77770?mibextid=rS40aB7S9Ucbxw6v"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/uka.food.77770?igsh=YWQ2NGFtbDNkYjFz"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/eugene-kana?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/+917696830056?text=Hello%20there!%20I%20want%20to%20get%20in%20touch%20with%20you."><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+                <a href="Kana-Resume[2]-1.pdf" class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright 2024 Made with <i class="fa-solid fa-heart"></i> Designed by Eugene.</p>
+    </div>
+</div>
+
+
+<script>
+
+    
+        
+        tablinks[i].classList.remove("active-link");
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+    for(var i = 0; i < tablinks.length; i++){
+    }
+    for(var i = 0; i < tabcontents.length; i++){
+        tabcontents[i].classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        // Loop through all tab links and remove the "active-link" class
+        for (var i = 0; i < tablinks.length; i++){
+            tablinks[i].classList.remove("active-link");
+        }
+        // Loop through all tab contents and remove the "active-tab" class
+        for (var i = 0; i < tabcontents.length; i++){
+            tabcontents[i].classList.remove("active-tab");
+        }
+        // Add the "active-link" class to the clicked tab link
+        event.currentTarget.classList.add("active-link");
+        // Add the "active-tab" class to the corresponding tab content
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }    
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbztHuekYnDRBLrl3A2vp6e0LbwEFS_-V1ASLOgDWcsM2qc021uxrx_Ni-ZxkU2dRuR5/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
